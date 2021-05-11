@@ -1,0 +1,40 @@
+:root {
+    --base: #0b4cc5;
+    --spacing: 10px;
+    --blur:0px;
+}
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+.hl{
+    color: var(--base);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+a{
+    color: var(--base);
+    text-decoration: none;
+}
+input{
+    width: 100px ;
+}
+body{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    background-color: rgb(29, 167, 167);
+}
+img{
+    height: 400px;
+    width: 500px;
+}
